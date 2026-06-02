@@ -8,6 +8,7 @@
 - Do **not** resolve open questions silently; update `OPEN_QUESTIONS.md` if a decision is made.
 - If a task depends on a blocking open question, move it to **Blocked** with the exact blocker.
 - Update this file when tasks are completed, discovered, or blocked.
+- Local MLX + OpenCode: see [`docs/local-agent-workflow.md`](docs/local-agent-workflow.md).
 
 ---
 

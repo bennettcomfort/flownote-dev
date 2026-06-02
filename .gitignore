@@ -4,3 +4,4 @@ logs/
 .env
 .env.*
 .cursor/hooks/state/
+docs/agent-packs/

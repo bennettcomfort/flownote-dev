@@ -32,6 +32,7 @@ Read these before non-trivial work. Skim updates when returning after a break.
 | `ROADMAP.md` | **Phase themes**—optional context for prioritization; `TODO.md` wins for sequencing. |
 | `IDEAS.md` | **Origin context**—brainstorm history; do not treat as spec if it conflicts with `SPEC.md`. |
 | `RULES.md` | **Quick checklist**—condensed rules; full detail lives in this file. |
+| `docs/local-agent-workflow.md` | **Local implementer**—MLX + Qwen3 + OpenCode role split, per-session sequence, context packs (when not using Cursor as primary coder). |
 
 **Precedence:** `SPEC.md` + `ARCHITECTURE.md` + `OPEN_QUESTIONS.md` (decisions captured) override `IDEAS.md` and informal notes.
 
@@ -219,6 +220,7 @@ End every coding task with:
 | Tool | Guidance |
 |------|----------|
 | **Cursor / Claude Code / Codex / Warp** | Follow this `AGENTS.md`; use `RULES.md` as a short reminder. |
+| **OpenCode + MLX (local)** | Follow `docs/local-agent-workflow.md`; one `TODO.md` task per session; Qwen3 via `mlx_lm.server`; OpenCode at `http://127.0.0.1:8080/v1`; Cursor optional for review. |
 | **Commits** | Only when the user asks; concise messages focused on *why*. |
 | **PRs** | Only when the user asks; include test plan from `SPEC.md` where relevant. |
 | **Xcode** | Primary IDE for build/run/test; document new schemes or targets in `docs/dev-setup.md`. |
@@ -227,8 +229,10 @@ End every coding task with:
 
 ## Current Execution State
 
+- **Branch:** `cursor/xcode-scaffold` (implementation work).
 - **Implementation:** Not started (planning docs complete; see `TODO.md` **Done**).
 - **First coding task:** Create Xcode macOS app project (SwiftUI shell, macOS 14).
+- **Local agent path:** OpenCode + MLX documented in `docs/local-agent-workflow.md`.
 - **Storage decision:** Core Data (not SwiftData) for MVP per `ARCHITECTURE.md`.
 - **Blocking open questions:** None for MVP start per `OPEN_QUESTIONS.md`.
 

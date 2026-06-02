@@ -20,6 +20,7 @@ macOS local-first TaskPaper-style scratchpad with Reminders sync—MVP for solo 
 | `OPEN_QUESTIONS.md` | What not to guess |
 | `PLAN.md` | Build order |
 | `AGENTS.md` | Full agent manual |
+| `docs/local-agent-workflow.md` | MLX + OpenCode sessions (role split and context packs) |
 
 ---
 
