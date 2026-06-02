@@ -5,3 +5,4 @@ logs/
 .env.*
 .cursor/hooks/state/
 docs/agent-packs/
+opencode.json
