@@ -11,6 +11,10 @@ targets:
     deploymentTarget: "14.0"
     sources:
       - path: App
+      - path: Features
+      - path: Domain
+      - path: Persistence
+      - path: Services
     resources:
       - path: Resources
     settings:
