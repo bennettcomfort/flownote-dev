@@ -17,7 +17,7 @@
 _Phase 0 foundation + Phase 1 smallest vertical slice (`PLAN.md`)._
 
 
-- [ ] Scaffold folder structure per `ARCHITECTURE.md` §6
+- [x] Scaffold folder structure per `ARCHITECTURE.md` §6
   - Outcome: `App/`, `Features/`, `Domain/`, `Persistence/`, `Services/`, `Tests/` directories exist with placeholder groups in Xcode.
   - Depends on: Create Xcode macOS app project
   - Validation: Project navigator matches planned layout; build still succeeds.

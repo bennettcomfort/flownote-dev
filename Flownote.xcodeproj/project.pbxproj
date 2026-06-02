@@ -7,18 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FA70823504BA396A9D736A6 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB702C9C65188F59BD96997A /* AppCommands.swift */; };
+		27856176C6388C8105B3B50F /* RemindersSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3EB25220AB27D5F1ABFF1E /* RemindersSyncService.swift */; };
+		5579B515994DD77039749DB4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D6BCEB5FE3B8DF0C781D32 /* CoreDataStack.swift */; };
+		745C868D6EA855B30D2CF7E9 /* AttachmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800F5D2CB629083151BB978 /* AttachmentService.swift */; };
+		BD6EFF36A8739CCF681611EE /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AEF706625326534057DE3C /* AppState.swift */; };
+		C906101CA0730B1B5916F625 /* OutlineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948277A029F2164E962A4236 /* OutlineService.swift */; };
 		CDA634CBAFFF0CAEA233C71E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B9BEF93D759A70CE9801B3 /* ContentView.swift */; };
 		D8887530AB3EA6E5509F40C6 /* FlownoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4242EAE4A83FAA54A67ABDA /* FlownoteApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11AEF706625326534057DE3C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		36DE70B544B975BF5F48BA62 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		37B9BEF93D759A70CE9801B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4151B672573B073C0269BAE8 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		42635CA8ECB012C5810748B2 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		536784ACB27E72BE44B669A2 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		5AC9B26BC389C49BC608D33F /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		6F1FB0F2DAEFDE20F7E9F9FD /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		83E0C8CC8090B440A7A92027 /* Flownote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flownote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8800F5D2CB629083151BB978 /* AttachmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentService.swift; sourceTree = "<group>"; };
+		881C9DC833F00138472EC314 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		948277A029F2164E962A4236 /* OutlineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineService.swift; sourceTree = "<group>"; };
+		9A89BED48E27627D21EF1BBA /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		9B2652762A452021CB293928 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		9E542772C5E9C36299FB8804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9F3FD3CB65B7B633E5F83E5C /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		C1D6BCEB5FE3B8DF0C781D32 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		C60371C8FE3B6C25B10839BF /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		EA3EB25220AB27D5F1ABFF1E /* RemindersSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersSyncService.swift; sourceTree = "<group>"; };
 		F4242EAE4A83FAA54A67ABDA /* FlownoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlownoteApp.swift; sourceTree = "<group>"; };
+		FB702C9C65188F59BD96997A /* AppCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		042335F998D88137E6FB5E16 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5AC9B26BC389C49BC608D33F /* .gitkeep */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		10666210F462C92431A06479 /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				881C9DC833F00138472EC314 /* .gitkeep */,
+			);
+			path = Parsing;
+			sourceTree = "<group>";
+		};
+		18689E23CBC869ED23403F69 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				C1D6BCEB5FE3B8DF0C781D32 /* CoreDataStack.swift */,
+				042335F998D88137E6FB5E16 /* Repositories */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		3E8B3D5D655A07F1C01D8623 /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				4151B672573B073C0269BAE8 /* .gitkeep */,
+			);
+			path = Attachments;
+			sourceTree = "<group>";
+		};
+		40CEC6B0252D5C9C50D19A0B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6AD517DFEA7B937711CEC /* Capture */,
+				E377403BA247F6B34A47FB75 /* Editor */,
+				43CB601954E85B8A55DCA72E /* FocusViews */,
+				6F0F718A3D8A2D44E191BBC7 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		43CB601954E85B8A55DCA72E /* FocusViews */ = {
+			isa = PBXGroup;
+			children = (
+				6F1FB0F2DAEFDE20F7E9F9FD /* .gitkeep */,
+			);
+			path = FocusViews;
+			sourceTree = "<group>";
+		};
+		6F0F718A3D8A2D44E191BBC7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				36DE70B544B975BF5F48BA62 /* .gitkeep */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6F993A6F3C821146C45FA3F3 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				9A89BED48E27627D21EF1BBA /* .gitkeep */,
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
 		712D4B0AE273B33FFB6383A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -27,17 +118,78 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8DCE9B1279BB239814769C60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B2652762A452021CB293928 /* .gitkeep */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC8F3D538F9056C33D88C441 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				42635CA8ECB012C5810748B2 /* .gitkeep */,
+				8800F5D2CB629083151BB978 /* AttachmentService.swift */,
+				948277A029F2164E962A4236 /* OutlineService.swift */,
+				EA3EB25220AB27D5F1ABFF1E /* RemindersSyncService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C69096A13D3EFC43A4AF5B3C = {
 			isa = PBXGroup;
 			children = (
 				FECC91DAD9FBEAD729264B29 /* App */,
+				DBF9613B5A6F6E570716311D /* Domain */,
+				40CEC6B0252D5C9C50D19A0B /* Features */,
+				18689E23CBC869ED23403F69 /* Persistence */,
+				AC8F3D538F9056C33D88C441 /* Services */,
 				712D4B0AE273B33FFB6383A3 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		D5D6AD517DFEA7B937711CEC /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				536784ACB27E72BE44B669A2 /* .gitkeep */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		DBF9613B5A6F6E570716311D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B3D5D655A07F1C01D8623 /* Attachments */,
+				F36685D4D3CBAF2AB9B44831 /* DueDates */,
+				8DCE9B1279BB239814769C60 /* Models */,
+				10666210F462C92431A06479 /* Parsing */,
+				6F993A6F3C821146C45FA3F3 /* Sync */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E377403BA247F6B34A47FB75 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				C60371C8FE3B6C25B10839BF /* .gitkeep */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		F36685D4D3CBAF2AB9B44831 /* DueDates */ = {
+			isa = PBXGroup;
+			children = (
+				9F3FD3CB65B7B633E5F83E5C /* .gitkeep */,
+			);
+			path = DueDates;
 			sourceTree = "<group>";
 		};
 		FECC91DAD9FBEAD729264B29 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				FB702C9C65188F59BD96997A /* AppCommands.swift */,
+				11AEF706625326534057DE3C /* AppState.swift */,
 				37B9BEF93D759A70CE9801B3 /* ContentView.swift */,
 				F4242EAE4A83FAA54A67ABDA /* FlownoteApp.swift */,
 				9E542772C5E9C36299FB8804 /* Info.plist */,
@@ -103,8 +255,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA70823504BA396A9D736A6 /* AppCommands.swift in Sources */,
+				BD6EFF36A8739CCF681611EE /* AppState.swift in Sources */,
+				745C868D6EA855B30D2CF7E9 /* AttachmentService.swift in Sources */,
 				CDA634CBAFFF0CAEA233C71E /* ContentView.swift in Sources */,
+				5579B515994DD77039749DB4 /* CoreDataStack.swift in Sources */,
 				D8887530AB3EA6E5509F40C6 /* FlownoteApp.swift in Sources */,
+				C906101CA0730B1B5916F625 /* OutlineService.swift in Sources */,
+				27856176C6388C8105B3B50F /* RemindersSyncService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
