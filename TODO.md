@@ -16,11 +16,6 @@
 
 _Phase 0 foundation + Phase 1 smallest vertical slice (`PLAN.md`)._
 
-- [ ] Create Xcode macOS app project (SwiftUI shell, macOS 14 deployment target)
-  - Outcome: Empty app builds, launches, and shows a placeholder main window.
-  - Depends on: None
-  - Validation: Xcode build succeeds; app runs locally.
-  - Notes: Align target name with product (Flownote). Configure signing for local dev.
 
 - [ ] Scaffold folder structure per `ARCHITECTURE.md` §6
   - Outcome: `App/`, `Features/`, `Domain/`, `Persistence/`, `Services/`, `Tests/` directories exist with placeholder groups in Xcode.
@@ -392,6 +387,11 @@ _Tasks waiting on unresolved decisions. None blocking MVP per `OPEN_QUESTIONS.md
 ## Done
 
 _Planning workflow (pre-implementation)._
+- [x] Create Xcode macOS app project (SwiftUI shell, macOS 14 deployment target)
+  - Outcome: Empty app builds, launches, and shows a placeholder main window.
+  - Depends on: None
+  - Validation: Xcode build succeeds; app runs locally.
+  - Notes: Align target name with product (Flownote). Configure signing for local dev.
 
 - [x] `IDEAS.md` brainstorm captured
 - [x] `PRODUCT.md` defined

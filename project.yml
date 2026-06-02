@@ -1,0 +1,31 @@
+name: Flownote
+options:
+  minimumXcodeGenVersion: 2.38.0
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+targets:
+  Flownote:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: App
+    resources:
+      - path: Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.flownote.Flownote
+        PRODUCT_NAME: Flownote
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.productivity
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Flownote
+        CFBundleName: Flownote
+        NSPrincipalClass: NSApplication
+        NSMainStoryboardFile: ""
